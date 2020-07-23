@@ -1,0 +1,114 @@
+@font-face {
+  font-family:Muli-VariableFont_wght;
+  src: url(../../crispies/fonts/Muli/Muli-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:ComicNeue-Bold;
+  src: url(../../crispies/fonts/comic_Neue/ComicNeue-Bold.ttf)
+}
+@font-face {
+  font-family:OpenSans-SemiBold;
+  src: url(../../crispies/fonts/Open_Sans/OpenSans-SemiBold.ttf)
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color: #181d20;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-left{
+  margin-top: 10px;
+  float: left;
+  margin-left: 50px;
+}
+img{
+width: 18em;
+float: right;
+margin: 1%;
+}
+.header-right{
+  margin-top: 22px;
+  float: right;
+  
+}
+.header-right a{
+  
+  color: white;
+  font-size: 16px;
+  margin-right: 50px; 
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.logoo{
+  margin-left: 70px;
+  height: 50px;
+  width: 130px;
+  position: absolute;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+th, td { 
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #181d20;
+    font-family:Muli-VariableFont_wght;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #181d20;
+    box-sizing: border-box;
+    outline: none;
+  
+  }
+  caption{
+      margin: 20px;
+      border-bottom: 2px solid #181d20;  
+  }
+  caption h1{
+    font-size: 25px;
+    font-family:Muli-VariableFont_wght;
+  }
+  input[type=file]{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+    
+  }
+  .labe{
+    cursor: grab;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 17px;
+    border-bottom: 2px solid #181d20;  
+  }
+  .btn
+  { margin-top: 20px;
+    float: right;
+    background-color: whitesmoke;
+    border: black;
+    color: #181d20;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    outline-color: black; 
+  }
+
